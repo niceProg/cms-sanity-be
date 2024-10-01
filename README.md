@@ -27,9 +27,14 @@ Pertama, clone repository ini ke direktori lokal Anda:
 ```bash
 git clone <url-repository>
 cd <nama-direktori>
+```
 
-### 2. Install Dependencies
+### 2. Dependencies
+Kedua, install depencies pada lokal:
+```bash
 npm install
+```
 
 ### 3. Running Sanity Studio
+```bash
 npm run dev
