@@ -55,8 +55,13 @@ export default defineType({
           {title: 'HTML', value: 'html'},
           {title: 'CSS', value: 'css'},
           {title: 'C++', value: 'cpp'},
+          {title: 'Bash', value: 'bash'},
+          {title: 'INI', value: 'ini'},
+          {title: 'JSON', value: 'json'},
+          {title: 'YAML', value: 'yaml'},
+          // Add more languages as needed
         ],
-        withFilename: true, // Menampilkan nama file opsional
+        withFilename: false, // Menampilkan nama file opsional
       },
     }),
   ],
